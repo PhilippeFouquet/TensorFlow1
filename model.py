@@ -2012,7 +2012,7 @@ class MaskRCNN():
         exlude: list of layer names to excluce
         """
         import h5py
-        from keras.engine import saving
+        from keras.engine import topology as saving
 
         if exclude:
             by_name = True
